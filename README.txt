@@ -5,7 +5,6 @@
 -angular CLI 18.1.4
 -note.js v20.16.0
 -npm 10.8.1
-
 #Base de datos
 -PostgreSQL 16.4, compiled by Visual C++ build 1940, 64-bit
 
@@ -26,7 +25,7 @@ ya que seguramente tendran que medificar credenciales
 
 #Inicio Angular
 se debe entrar a la carpeta "frontApp" y en ella usar el CMD 
-hubicandolo en la misma ruta y luego escribir "ng server"
+ubicándolo en la misma ruta y luego escribir "npm install" para instalar las dependencias del proyecto y luego "ng serve" para levantar el proyecto
 
 #poblar
 despues de levantar el servidor de spritboot y el de angular
