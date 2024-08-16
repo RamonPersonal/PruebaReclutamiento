@@ -1,0 +1,14 @@
+<div class="formulario">
+  <h2>Resultados</h2>
+  <div class="chart-container">
+    <canvas baseChart
+      [data]="radarChartData"
+      [options]="radarChartOptions"
+      [labels]="radarChartLabels"
+      [type]="'radar'">
+    </canvas>
+  </div>
+  <div class="centro">
+  <button (click)="irInicio()" class="btn btn-primary largo2">Volver</button>
+</div>
+</div>

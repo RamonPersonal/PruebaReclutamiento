@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+.formulario{
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-top: 10%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.largo{
+    width: 100%;
+}
+
+.largo2{
+    width: 30%;
+}
+
+/* Personaliza el color del texto de error */
+.toast-error {
+    background-color: #f44336; /* Rojo oscuro */
+    color: #ffffff; /* Blanco */
+  }
+  
+  /* Personaliza el color del texto de éxito */
+  .toast-success {
+    background-color: #4caf50; /* Verde */
+    color: #ffffff; /* Blanco */
+  }
+  
+  /* Personaliza el color del texto de advertencia */
+  .toast-warning {
+    background-color: #ff9800; /* Naranja */
+    color: #ffffff; /* Blanco */
+  }
+  
+  /* Personaliza el color del texto de información */
+  .toast-info {
+    background-color: #2196f3; /* Azul */
+    color: #ffffff; /* Blanco */
+  }
+
+  
+  .toast {
+    text-align: center; /* Centra el texto dentro de la notificación */
+  }
+  
+  /* Centra las notificaciones en la pantalla */
+  .toast-top-right {
+    margin: 0 auto;
+  }
